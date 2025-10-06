@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="bg-green-100 flex justify-between items-center p-4 shadow-xl sticky top-0 z-10">
+        <h1 class="font-medium text-2xl">GREENDEN</h1>
+
+        <i class="fa-solid fa-bars md:hidden" style="color: #000000;"></i>
+
+        <ul class="flex gap-5 hidden md:flex">
+            <li><a href="index.html" class="hover:underline hover:text-black text-gray-700">Home</a> </li>
+            <li><a href="products.html" class="hover:underline hover:text-black text-gray-700">Products</a></li>
+            <li><a href="contact.html" class="hover:underline hover:text-black text-gray-700">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- header section -->
+    <section class=" p-10 bg-green-100 flex justify-center items-center">
+        <div>
+            <div>
+                <p>We offer you a wide range of Artificial and natural flowers!!</p>
+                <h1 class="font-bold text-3xl mt-6 mb-5"> Plants for your Interior</h1>
+            </div>
+            <div class="mb-10">
+                <button class=" p-2 border border-black rounded mr-2 bg-black text-white">Shop Now</button>
+                <button class="p-2 border border-black rounded">Watch This</button>
+            </div>
+            <p>160+plant species | 100+ clients</p>
+        </div>
+        <div class="hidden md:flex px-10">
+            <img src="./images/header_image.jpg" class="w-80">
+        </div>
+
+    </section>
+
+    <!-- About us -->
+    <section>
+        <h2 class="text-center text-2xl font-medium mb-4 mt-5">About Us</h2>
+        <p class="text-center mb-5">This site for those who admire the beauty and the harmony of Nature</p>
+        <div class="md:flex gap-3">
+            <div class="border border-black m-5 p-4 text-center">
+                <i class="fa-solid fa-book" style="color: #000000;"></i>
+                <h2 class="text-xl font-semibold mb-4">Large Assortment</h2>
+                <p>Your premier destination for all things green and growing!
+                    largest and most diverse assortment of plants, from lush indoor varieties to vibrant outdoor blooms.
+                    Whether you're a seasoned green thumb or just
+                    starting your plant journey, we've got you covered.</p>
+            </div>
+            <div class="border border-black m-5 p-4 text-center">
+                <i class="fa-solid fa-truck-fast" style="color: #000000;"></i>
+                <h2 class="text-xl font-semibold mb-4">Free and Fast Shipping</h2>
+                <p>Enjoy free shipping on all orders! We'll carefully package and track your order to ensure fast and
+                    reliable delivery. Get your plants quickly, no matter the order size. International shipping
+                    available on request. Your satisfaction is our priority!</p>
+            </div>
+            <div class="border border-black m-5 p-4 text-center">
+                <i class="fa-solid fa-phone-volume" style="color: #000000;"></i>
+                <h2 class="text-xl font-semibold mb-4">24/7 Support</h2>
+                <p>Need help? Our team is available 24/7. Reach us via phone, email, or live chat. Get quick answers to
+                    your questions. Ensure your plants thrive with our support. Your satisfaction is our priority! We're
+                    here to help anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best-seller -->
+    <section>
+        <h2 class="text-2xl font-medium text-center mt-10 mb-10">Best Sellers</h2>
+
+
+        <div class="grid grid-cols-2 gap-5 text-center md:grid-cols-4 p-2">
+            <div>
+                <img src="./images/bestseller1.png" class="inline hover:shadow-2xl transform hover:-translate-y-1">
+                <p class="p-1">Table Cactus</p>
+                <p>₹1290</p>
+                <button class="bg-green-100 p-2 rounded mt-3 mb-2 hover:bg-green-200">Shop Now</button>
+            </div>
+            <div>
+                <img src="./images/bestseller2.png" class="inline hover:shadow-2xl transform hover:-translate-y-1">
+                <p class="p-1">Money plant</p>
+                <p>₹1690</p>
+                <button class="bg-green-100 p-2 rounded mt-3 mb-2 hover:bg-green-200">Shop Now</button>
+            </div>
+            <div>
+                <img src="./images/bestseller3.png" class="inline hover:shadow-2xl transform hover:-translate-y-1">
+                <p class="p-1">Zee Plant</p>
+                <p>₹1300</p>
+                <button class="bg-green-100 p-2 rounded mt-3 mb-2 hover:bg-green-200">Shop Now</button>
+            </div>
+            <div>
+                <img src="./images/bestseller4.png" class="inline hover:shadow-2xl transform hover:-translate-y-1">
+                <p class="p-1">Snake Plant</p>
+                <p>₹1499</p>
+                <button class="bg-green-100 p-2 rounded mt-3 mb-2 hover:bg-green-200">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+     <section class="text-center">
+        <h2 class="text-2xl font-medium  mt-10 mb-10">New Arrivals</h2>
+
+
+        <div class="grid grid-cols-2 gap-5 text-center md:grid-cols-6 p-2">
+            <div>
+                
+                <img src="./images/newarrivals1.png" class="inline hover:shadow-2xl transform hover:-translate-y-1 border border-green-800">
+                <p class="p-1">Monstera</p>
+                <p>₹1299</p>
+            </div>
+        
+                
+            <div>
+                <img src="./images/newarrivals2.png" class="inline hover:shadow-2xl transform hover:-translate-y-1 border border-green-800">
+                <p class="p-1">Sago Palm</p>
+                <p>₹1999</p>
+            </div>
+                
+            <div>
+                <img src="./images/newarrivals3.png" class="inline hover:shadow-2xl transform hover:-translate-y-1 border border-green-800">
+                <p class="p-1">Spider Plant</p>
+                <p>₹1399</p>
+            </div>
+                
+            <div>
+                <img src="./images/newarrivals4.png" class="inline hover:shadow-2xl transform hover:-translate-y-1 border border-green-800">
+                <p class="p-1">Ficus</p>
+                <p>₹1499</p>
+                </div>
+
+            <div>
+                <img src="./images/newarrivals5.png" class="inline hover:shadow-2xl transform hover:-translate-y-1 border border-green-800">
+                <p class="p-1">Draceana</p>
+                <p>₹1499</p>
+                </div>
+
+            <div>
+                <img src="./images/newarrivals6.png" class="inline hover:shadow-2xl transform hover:-translate-y-1 border border-green-800">
+                <p class="p-1">Yucca</p>
+                <p>₹1499</p>
+                </div>
+
+                
+        </div>
+        <button class="bg-green-100 p-2 rounded mt-7 mb-2 hover:bg-green-200 text-center"><a href="products.html"> Explore Now > </a></button>
+    </section>
+
+    <!-- customer Reviews -->
+    <section>
+        <h2 class="mt-11 text-2xl font-medium text-center">Customer Reviwes and Ratings</h2>
+        <div class="mt-5  flex flex-col justify-around items-center gap-4 md:flex-row justify-around items-center">
+            <div class=" bg-green-200 p-5 m-5 shadow-2xl">
+                <div class="flex justify-between items-center gap-2">
+                    <img src="./images/review1.png" class="rounded-full w-20">
+                    <p>4.5 ⭐⭐⭐⭐</p>
+                </div>
+                <h3 class="text-xl font-medium mt-5 mb-3">LARA</h3>
+
+                <p>"I'm absolutely loving my new plants from GREENDEN! The free shipping was a great bonus. Customer
+                    support was super helpful when I had a question. My plants arrived healthy and on time.
+                    Highly recommend!"</p>
+            </div>
+
+            <div class=" bg-green-200 p-5 m-5 shadow-2xl">
+                <div class="flex justify-between items-center gap-2">
+                    <img src="./images/review3.png" class="rounded-full w-20">
+                    <p>4.2 ⭐⭐⭐⭐</p>
+                </div>
+                <h3 class="text-xl font-medium mt-5 mb-3">PRAKASH</h3>
+
+                <p>GREENDEN has exceeded my expectations! The 24/7 support team is incredibly helpful. I got
+                    exactly what I ordered, and the plants are thriving. Fast shipping and great prices. Will definitely
+                    be back for more!"</p>
+            </div>
+
+            <div class=" bg-green-200 p-5 m-5 gap-2 shadow-2xl">
+                <div class="flex justify-between items-center">
+                    <img src="./images/review2.jpg" class="rounded-full w-20">
+                    <p>4.4 ⭐⭐⭐⭐</p>
+                </div>
+                <h3 class="text-xl font-medium mt-5 mb-3">PREETHI</h3>
+
+                <p>"I'm so impressed with GREENDEN! The quality of the plants is top-notch. Ordering was easy, and
+                    delivery was super fast. Customer service is friendly and responsive. Highly recommend for all
+                    your plant needs!"</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- newsletter -->
+    <section class="text-center mt-10">
+        <h2 class="text-2xl font-medium mb-4">JOIN OUR NEWS LETTER</h2>
+        <p class="mb-10">Sign-Up for our E-mail Newspaper and get Exclusive Offers and Discount copouns!!</p>
+        <input type="text" class="border border-black mb-7 p-1 outline-none" placeholder="Enter your Name"
+            style="width:40%" required><br>
+        <input type="email" class="border border-black mb-10 p-1 outline-none" placeholder="Enter your Email"
+            style="width:40%" required><br>
+        <button class="bg-green-100 p-2 rounded mb-10 hover:bg-green-200">Subscribe</button>
+    </section>
+
+    <!-- footer -->
+    <section>
+        <div class="bg-green-100 p-10 flex flex-col gap-7">
+            <h1 class="text-2xl font-medium">GREENDEN</h1>
+            <p>Bringing nature to your doorstep!!</p>
+            <p>&copy; 2025 Greenden.com</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
