@@ -19,7 +19,7 @@
     <nav class="bg-green-100 flex justify-between items-center p-4 shadow-xl sticky top-0 z-10">
         <h1 class="font-medium text-2xl">GREENDEN</h1>
 
-        <i class="fa-solid fa-bars md:hidden" style="color: #000000;"></i>
+        <i id="menu" class="fa-solid fa-bars md:hidden" style="color: #000000;"></i>
 
         <ul class="flex gap-5 hidden md:flex">
             <li><a href="index.html" class="hover:underline hover:text-black text-gray-700">Home</a> </li>
@@ -28,6 +28,21 @@
 
         </ul>
     </nav>
+
+
+    <!-- side nav -->
+    <section id="sidenav" class="bg-green-100 fixed z-30 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="close" class=" inline cursor-pointer">x</p>
+        </div>
+        <ul class=" flex flex-col items-center gap-10" >
+            <li><a href="index.html" class="hover:underline hover:text-black text-gray-700">Home</a> </li>
+            <li><a href="products.html" class="hover:underline hover:text-black text-gray-700">Products</a></li>
+            <li><a href="contact.html" class="hover:underline hover:text-black text-gray-700">Contact</a></li>
+
+        </ul>
+    </section>
+
 
     <!-- contact section -->
     <section class="bg-white dark:bg-gray-900">
@@ -50,7 +65,8 @@
                     <!-- <input type="text"
                         class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light outline-none"
                         placeholder="Let us know how we can help you" required> -->
-                        <select class="block text-xs p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light outline-none"
+                    <select
+                        class="block text-xs p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light outline-none"
                         placeholder="Let us know how we can help you" required>
                         <option>Select </option>
                         <option>My order and Invoice</option>
@@ -58,8 +74,8 @@
                         <option>Need Help on choosing plants</option>
                         <option>Feedback</option>
                         <option>Others</option>
-                        </select>
-                        
+                    </select>
+
                 </div>
                 <div class="sm:col-span-2">
                     <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your
@@ -83,6 +99,9 @@
             <p>&copy; 2025 Greenden.com</p>
         </div>
     </section>
+
+
+    <script src="contact.js"></script>
 </body>
 
 </html>

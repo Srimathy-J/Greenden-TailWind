@@ -18,7 +18,7 @@
     <nav class="bg-green-100 flex justify-between items-center p-4 shadow-xl sticky top-0 z-30">
         <h1 class="font-medium text-2xl">GREENDEN</h1>
 
-        <i class="fa-solid fa-bars md:hidden" style="color: #000000;"></i>
+        <i id="menu" class="fa-solid fa-bars md:hidden" style="color: #000000;"></i>
 
         <ul class="flex gap-5 hidden md:flex">
             <li><a href="index.html" class="hover:underline hover:text-black text-gray-700">Home</a> </li>
@@ -27,6 +27,18 @@
 
         </ul>
     </nav>
+    <!-- side nav -->
+    <section id="sidenav" class="bg-green-100 fixed z-30 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+        <div class="text-right p-5">
+            <p id="close" class=" inline cursor-pointer">x</p>
+        </div>
+        <ul class=" flex flex-col items-center gap-10" >
+            <li><a href="index.html" class="hover:underline hover:text-black text-gray-700">Home</a> </li>
+            <li><a href="products.html" class="hover:underline hover:text-black text-gray-700">Products</a></li>
+            <li><a href="contact.html" class="hover:underline hover:text-black text-gray-700">Contact</a></li>
+
+        </ul>
+    </section>
     <!-- flash sale -->
     <div class="flash-sale-bar bg-green-200 shadow-2xl text-black p-2 text-center overflow-hidden whitespace-nowrap">
         <span class="inline-block animate-pulse p-3">⚡ FLASH SALE! Up to 25% off! SHOP NOW! ⚡</span>
@@ -310,6 +322,10 @@
             <p>&copy; 2025 Greenden.com</p>
         </div>
     </section>
+
+
+
+    <script src="index.js"></script>
 
 </body>
 
